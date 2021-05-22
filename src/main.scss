@@ -278,6 +278,45 @@ footer {
     }
 }
 
+.section1trd {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 4%;
+    margin-bottom: 4%;
+}
+
+// .sec1Contact {
+//     margin-bottom: 0;
+//     padding-bottom: 0;
+// }
+
+.contactForm {
+    background-color: $blue-col;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto; 
+    justify-content: space-between; 
+    color: white;
+    font-weight: 400; 
+    
+    input {
+        margin-bottom: 3%;
+        border-radius: 3px;
+        border-width: 1px;
+    }
+
+    textarea{
+        margin-bottom: 4%;
+    }
+}
+
 
 
 
@@ -298,6 +337,12 @@ footer {
 
     .spellsHead {
         width: 50%;
+    }
+
+    .section2trd {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 }
 
@@ -323,6 +368,12 @@ footer {
         font-size: 20px;
         margin-top: 4%;
         margin-bottom: 4%;
+    }
+
+    .section2trd {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
     
     
