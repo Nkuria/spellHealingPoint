@@ -34,6 +34,47 @@ img {
       color: $blue-col;
   }
 
+  #burger{
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: white;
+    background: linear-gradient(45deg, #9682C8 10%, #05BCC9);;
+    font-size: 32px;
+    padding: 16px 16px 32px 32px;
+    border-radius: 0% 0% 0% 100%;
+    transition: 1s;
+    cursor: pointer;
+  }
+  
+  #quit{
+    position: fixed;
+    top: 0;
+    color: white;
+    font-size: 32px;
+    padding: 16px;
+    display: none;
+    cursor: pointer;
+  }
+
+  #links{
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    padding: 25vh 0;
+    justify-content: space-around;
+  }
+  
+  #links a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Roboto';
+    z-index: 10;
+  }
+
 .navigbar {
     display: flex;
     justify-content: space-between;
@@ -215,6 +256,28 @@ footer {
     }
 }
 
+// Traditional healer page
+
+// spells page
+
+.spellsHead {
+    color: $blue-col;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    border-style: solid;
+    padding:0.5% 1%;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 2%;
+    border-color: $black-col;
+    border-width: 1px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
 
 
 
@@ -232,6 +295,10 @@ footer {
             margin-bottom: 5%;
         }
     }
+
+    .spellsHead {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -244,10 +311,18 @@ footer {
     .section4 {
         display: flex;
         flex-direction: column;
+        width: 100%;
         p {
             margin-bottom: 5%;
         }
         
+    }
+
+    .spellsHead {
+        width: 50%;
+        font-size: 20px;
+        margin-top: 4%;
+        margin-bottom: 4%;
     }
     
     
